@@ -1,0 +1,16 @@
+:root {
+  @custom-media --medium (min-width: 1024px);
+}
+
+:export {
+  _mediumQuery: export-custom-media(--medium);
+  _mediumQueryEmpty: export-custom-media(   );
+  _mediumQueryWrong: export-custom-media(--giant);
+}
+
+.foo {
+  width: 100%;
+  @media (--medium) {
+    width: 80%;
+  }
+}

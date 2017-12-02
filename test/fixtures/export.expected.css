@@ -1,0 +1,14 @@
+:root {
+  @custom-media --medium (min-width: 1024px);
+}
+
+:export {
+  _mediumQuery: (min-width: 1024px);
+}
+
+.foo {
+  width: 100%;
+  @media (--medium) {
+    width: 80%;
+  }
+}

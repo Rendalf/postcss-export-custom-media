@@ -1,0 +1,22 @@
+{
+  "name": "postcss-export-custom-media",
+  "version": "0.0.1",
+  "description": "Export css custom media",
+  "main": "index.js",
+  "author": "Artem Lipatov <ar.lipatov93@yandex.ru>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rendalf/postcss-export-custom-media"
+  },
+  "bugs": {
+    "url": "https://github.com/Rendalf/postcss-export-custom-media/issues"
+  },
+  "scripts": {
+    "test": "node ./test/index.js"
+  },
+  "dependencies": {
+    "postcss": "^6.0.14"
+  },
+  "devDependencies": {}
+}
