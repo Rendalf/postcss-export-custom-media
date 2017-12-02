@@ -1,6 +1,6 @@
-# PostCSS Export Custom Media [<img src="https://postcss.github.io/postcss/logo.svg" alt="PostCSS Logo" width="90" height="90" align="right">][postcss]
+# PostCSS Export Custom Media <img src="https://postcss.github.io/postcss/logo.svg" alt="PostCSS Logo" width="90" height="90" align="right">
 
-[PostCSS Export Custom Media] lets you export [custom media queries] from CSS to
+PostCSS Export Custom Media lets you export [custom media queries](https://github.com/postcss/postcss-custom-media) from CSS to
 JavaScript by `:export` selectors.
 
 ## Installation
